@@ -1,1 +1,1 @@
-C practice and pointer manipulation programs
+BASH/C practice and pointer manipulation programs
