@@ -1,0 +1,113 @@
+sample
+sample2
+sample2.c~
+sample2.txt
+sample3
+sample3.c
+sample3.c~
+sample3.txt
+#sample.c#
+sample.c~
+sampleoutput.txt
+
+ Before forking.
+	 	 	 Parent Process 0 
+	 	 	 Parent Process 1 
+	 	 	 Parent Process 2 
+	 	 	 Parent Process 3 
+	 	 	 Parent Process 4 
+	 	 	 Parent Process 5 
+	 	 	 Parent Process 6 
+	 	 	 Parent Process 7 
+	 	 	 Parent Process 8 
+	 	 	 Parent Process 9 
+	 	 	 Parent Process 10 
+	 	 	 Parent Process 11 
+	 	 	 Parent Process 12 
+	 	 	 Parent Process 13 
+	 	 	 Parent Process 14 
+	 	 	 Parent Process 15 
+	 	 	 Parent Process 16 
+	 	 	 Parent Process 17 
+	 	 	 Parent Process 18 
+	 	 	 Parent Process 19 
+	 	 	 Parent Process 20 
+	 	 	 Parent Process 21 
+	 	 	 Parent Process 22 
+	 	 	 Parent Process 23 
+	 	 	 Parent Process 24 
+	 	 	 Parent Process 25 
+	 	 	 Parent Process 26 
+	 	 	 Parent Process 27 
+	 	 	 Parent Process 28 
+	 	 	 Parent Process 29 
+	 	 	 Parent Process 30 
+	 	 	 Parent Process 31 
+	 	 	 Parent Process 32 
+	 	 	 Parent Process 33 
+	 	 	 Parent Process 34 
+	 	 	 Parent Process 35 
+	 	 	 Parent Process 36 
+	 	 	 Parent Process 37 
+	 	 	 Parent Process 38 
+	 	 	 Parent Process 39 
+	 	 	 Parent Process 40 
+	 	 	 Parent Process 41 
+	 	 	 Parent Process 42 
+	 	 	 Parent Process 43 
+	 	 	 Parent Process 44 
+	 	 	 Parent Process 45 
+	 	 	 Parent Process 46 
+	 	 	 Parent Process 47 
+	 	 	 Parent Process 48 
+	 	 	 Parent Process 49 
+	 	 	 Parent Process 50 
+	 	 	 Parent Process 51 
+	 	 	 Parent Process 52 
+	 	 	 Parent Process 53 
+	 	 	 Parent Process 54 
+	 	 	 Parent Process 55 
+	 	 	 Parent Process 56 
+	 	 	 Parent Process 57 
+	 	 	 Parent Process 58 
+	 	 	 Parent Process 59 
+	 	 	 Parent Process 60 
+	 	 	 Parent Process 61 
+	 	 	 Parent Process 62 
+	 	 	 Parent Process 63 
+	 	 	 Parent Process 64 
+	 	 	 Parent Process 65 
+	 	 	 Parent Process 66 
+	 	 	 Parent Process 67 
+	 	 	 Parent Process 68 
+	 	 	 Parent Process 69 
+	 	 	 Parent Process 70 
+	 	 	 Parent Process 71 
+	 	 	 Parent Process 72 
+	 	 	 Parent Process 73 
+	 	 	 Parent Process 74 
+	 	 	 Parent Process 75 
+	 	 	 Parent Process 76 
+	 	 	 Parent Process 77 
+	 	 	 Parent Process 78 
+	 	 	 Parent Process 79 
+	 	 	 Parent Process 80 
+	 	 	 Parent Process 81 
+	 	 	 Parent Process 82 
+	 	 	 Parent Process 83 
+	 	 	 Parent Process 84 
+	 	 	 Parent Process 85 
+	 	 	 Parent Process 86 
+	 	 	 Parent Process 87 
+	 	 	 Parent Process 88 
+	 	 	 Parent Process 89 
+	 	 	 Parent Process 90 
+	 	 	 Parent Process 91 
+	 	 	 Parent Process 92 
+	 	 	 Parent Process 93 
+	 	 	 Parent Process 94 
+	 	 	 Parent Process 95 
+	 	 	 Parent Process 96 
+	 	 	 Parent Process 97 
+	 	 	 Parent Process 98 
+	 	 	 Parent Process 99 
