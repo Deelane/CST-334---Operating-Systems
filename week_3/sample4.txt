@@ -1,0 +1,45 @@
+#include <iostream.h>
+#include <sys/wait.h>
+#include <fcntl.h>
+#include <stdlib.h>
+#include <unistd.h>
+int main(void) 
+{
+	int cpid;
+	char myFile[20];
+	int myFileD;
+	int done, status;
+	
+
+	myFileD = open("/etc/passwd", O_RDONLY);
+	if (fork() == 0) 
+	{ //Child process
+		dup2(myFileD, 0); //Attach stdin to file
+		close(myFileD); //myFileD no longer needed
+		execlp("wc", "wc", "-l", NULL);//Execute wc command
+	} 
+	else 
+	{ //Parent process
+		done = wait(&status); //wait for child to finish
+	}
+	return 0;
+}
+	
+	/*cout << "Enter output file name: ";
+	cin >> myFile;
+	myFileD = open(myFile, O_WRONLY | O_CREAT | O_TRUNC, 0700);
+	cpid = fork( );
+	if (cpid == 0) 
+	{ //Child process
+		dup2(myFileD, 1); //Attach stdout to file
+		close(myFileD); //myFileD no longer needed
+		execlp("ls", "ls", "-l", NULL); //Execute ls command
+	} 
+	else 
+	{ //Parent process
+		done = wait(&status); //wait for child to finish
+		cout << "All done!" << endl;
+	}
+	return 0;
+}*/
+
