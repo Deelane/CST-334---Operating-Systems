@@ -1,0 +1,21 @@
+Explain what happens when you run this threadHello.c program; can you list how many threads are
+created and what values of i are passed? Do you get the same result if you run it multiple times? What if
+you are also running some other demanding processes (e.g., compiling a big program, playing a Flash
+game on a website, or watching streaming video) when you run this program?
+
+	10 threads are created with a for loop and are passed a pointer to local variable i, which is also the counter for the for loop. The value if i when the thread is actually scheduled and executed is indeterminate. 
+	If you are running other demanding processes, the bug of the threads printing the same value of i is there still, albeit slightly less.
+
+The function go() has the parameter arg passed a local variable. Are these variables per-thread or
+shared state? Where does the compiler store these variables’ states?
+	
+	The value &i passed is in a shared state. It is stored on the stack of main.
+
+Write down your observations. You probably have seen that there is a bug in the program, where
+threads may print same values of i. Why?
+	
+	Passing the threads a pointer to a value that is also being incremented in a for loop is very silly. 
+	Since the threads are not scheduled right away by the scheduler, the value of i can be anything from 0-10 when the thread finally runs. 
+	It is hard to call it a race condition since the threads are not battling to update the value of i, just print it. 
+	Threads printing the same values of i is a result of them executing and accessing the current value of i at the same time, before the next for loop iteration can update it.
+	There is also the case of none of the threads being scheduled into the first for loop finishes, resulting in all threads saying that i = 10.
