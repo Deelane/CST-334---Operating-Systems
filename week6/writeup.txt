@@ -1,0 +1,8 @@
+Explain what happens when you run the threadSync.c program?
+	
+	10 threads are created in a for loop and passed the function go(void* arg). 
+	The order at which the threads run is indeterminate due to the scheduler. 
+	However, a semaphore is taken out at at the beginning of the threads' function call.
+	Since the semaphore is initialized to 1, the first thread chosen by the scheduler will continue.
+	Each thread prints a statement and then releases the semaphore, decrements the counter, and wakes a waiting thread.
+ 
